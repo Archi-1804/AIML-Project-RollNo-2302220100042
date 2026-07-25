@@ -170,7 +170,7 @@ The following visualizations were created.
 > Compare average insurance charges between smokers and non-smokers.
 
 <p align="center">
-<img src="C:\Users\ACER\OneDrive\Desktop\Medical-Insurance-Cost-Prediction\Images\Smoker vs Charges.png" width="650">
+<img src="Images\Smoker vs Charges.png" width="650">
 </p>
 
 ---
@@ -180,7 +180,7 @@ The following visualizations were created.
 > Analyze relationship between BMI and insurance charges.
 
 <p align="center">
-<img src="C:\Users\ACER\OneDrive\Desktop\Medical-Insurance-Cost-Prediction\Images\BMI vs Charges.png" width="650">
+<img src="Images\BMI vs Charges.png" width="650">
 </p>
 
 ---
@@ -190,7 +190,7 @@ The following visualizations were created.
 > Understand feature relationships.
 
 <p align="center">
-<img src="C:\Users\ACER\OneDrive\Desktop\Medical-Insurance-Cost-Prediction\Images\Heatmap.png" width="700">
+<img src="Images\Heatmap.png" width="700">
 </p>
 
 ---
@@ -198,7 +198,7 @@ The following visualizations were created.
 ## 👤 Age vs Insurance Charges
 
 <p align="center">
-<img src="C:\Users\ACER\OneDrive\Desktop\Medical-Insurance-Cost-Prediction\Images\Children vs Charges.png" width="650">
+<img src="Images\Children vs Charges.png" width="650">
 </p>
 
 ---
@@ -206,7 +206,7 @@ The following visualizations were created.
 ## 🎯 Predicted vs Actual Charges
 
 <p align="center">
-<img src="C:\Users\ACER\OneDrive\Desktop\Medical-Insurance-Cost-Prediction\Images\Actual vs Predicted plot.png" width="650">
+<img src="Images\Actual vs Predicted plot.png" width="650">
 </p>
 
 ---

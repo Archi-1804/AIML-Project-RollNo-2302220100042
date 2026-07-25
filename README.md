@@ -167,8 +167,6 @@ The following visualizations were created.
 
 ## 🚬 Smoker vs Insurance Charges
 
-> Compare average insurance charges between smokers and non-smokers.
-
 <p align="center">
 <img src="Images\Smoker vs Charges.png" width="650">
 </p>
@@ -177,8 +175,6 @@ The following visualizations were created.
 
 ## ⚖️ BMI vs Insurance Charges
 
-> Analyze relationship between BMI and insurance charges.
-
 <p align="center">
 <img src="Images\BMI vs Charges.png" width="650">
 </p>
@@ -186,8 +182,6 @@ The following visualizations were created.
 ---
 
 ## 🔥 Correlation Heatmap
-
-> Understand feature relationships.
 
 <p align="center">
 <img src="Images\Heatmap.png" width="700">

@@ -247,9 +247,9 @@ The model was built using **Linear Regression**.
 
 | Metric | Score |
 |---------|------:|
-| R² Score | **Add Your Result** |
-| MAE | **Add Your Result** |
-| RMSE | **Add Your Result** |
+| R² Score | 0.8868141245573691 |
+| MAE | 2813.0707550847505 |
+| RMSE | 4560.547223347653 |
 
 ---
 

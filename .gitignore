@@ -1,0 +1,110 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Extensions
+*.so
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Python Testing & Cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Distribution / Packaging
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Machine Learning Models
+# ==========================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.keras
+*.onnx
+
+# ==========================
+# TensorFlow / PyTorch
+# ==========================
+runs/
+checkpoints/
+wandb/
+
+# ==========================
+# Large Dataset Archives
+# (Keep insurance.csv tracked)
+# ==========================
+*.zip
+*.tar
+*.gz
+*.7z
+
+# ==========================
+# Do NOT Ignore These
+# ==========================
+!README.md
+!Dataset/
+!Dataset/*.csv
+!Notebook/
+!Notebook/*.ipynb
+!Images/
+!Images/*.png
+!Images/*.jpg
+!Images/*.jpeg

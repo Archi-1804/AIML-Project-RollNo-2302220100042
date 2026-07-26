@@ -1,6 +1,11 @@
-import streamlit as st
-import pandas as pd
+from pathlib import Path
+
 import joblib
+import pandas as pd
+import streamlit as st
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_DIR = BASE_DIR / "model"
 
 # -------------------------
 # Page Configuration
@@ -14,8 +19,8 @@ st.set_page_config(
 # -------------------------
 # Load Model
 # -------------------------
-model = joblib.load("model/insurance_model.pkl")
-columns = joblib.load("model/columns.pkl")
+model = joblib.load(MODEL_DIR / "insurance_model.pkl")
+columns = joblib.load(MODEL_DIR / "columns.pkl")
 
 # -------------------------
 # Title

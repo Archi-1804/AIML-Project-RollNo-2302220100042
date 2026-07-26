@@ -80,6 +80,10 @@ desktop.ini
 *.keras
 *.onnx
 
+# Keep model artifacts in the repository
+!model/
+!model/*.pkl
+
 # ==========================
 # TensorFlow / PyTorch
 # ==========================

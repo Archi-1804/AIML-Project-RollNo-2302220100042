@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live App:** https://your-app-name.streamlit.app
+🔗 **Live App:** [https://your-app-name.streamlit.app](https://aiml-project-rollno-2302220100042.onrender.com)
 
 ### 📊 Predicting Medical Insurance Charges using Linear Regression
 

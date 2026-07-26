@@ -2,6 +2,10 @@
 
 # 🏥 Medical Insurance Cost Prediction
 
+## 🌐 Live Demo
+
+🔗 **Live App:** https://your-app-name.streamlit.app
+
 ### 📊 Predicting Medical Insurance Charges using Linear Regression
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
@@ -31,6 +35,8 @@ This project develops a **Linear Regression** model that predicts medical insura
 - 👨‍👩‍👧 Number of Children
 - 🚬 Smoking Status
 - 🌍 Region
+
+To make the model interactive and user-friendly, a Streamlit web application was developed, allowing users to enter their details and receive real-time insurance cost predictions.
 
 The project follows the complete Machine Learning workflow from **data preprocessing** to **model evaluation**.
 
@@ -88,6 +94,8 @@ This project helps insurance companies:
 - 🤖 Scikit-Learn
 - 📓 Jupyter Notebook
 - 💻 VS Code
+- 🌐 Streamlit
+- 💾 Joblib
 
 ---
 
@@ -96,21 +104,27 @@ This project helps insurance companies:
 ```text
 Medical-Insurance-Cost-Prediction/
 │
-├── Dataset/
+├── 📁 Dataset/
 │   └── insurance.csv
 │
-├── Notebook/
-│   └── insurance_prediction.ipynb
+├── 📁 Notebook/
+│   └── medical_prediction.ipynb
 │
-├── Images/
+├── 📁 model/
+│   ├── insurance_model.pkl
+│   └── columns.pkl
+│
+├── 📁 Images/
+│   ├── app_home.png
+│   ├── prediction_result.png
 │   ├── smoker_vs_charges.png
 │   ├── bmi_vs_charges.png
-│   ├── correlation_heatmap.png
-│   ├── age_vs_charges.png
-│   └── predicted_vs_actual.png
+│   └── correlation_heatmap.png
 │
-├── README.md
-└── .gitignore
+├── 📄 app.py
+├── 📄 README.md
+├── 📄 requirements.txt
+└── 📄 .gitignore
 ```
 
 ---
@@ -118,31 +132,37 @@ Medical-Insurance-Cost-Prediction/
 # ⚙️ Machine Learning Workflow
 
 ```text
-Dataset
-   │
-   ▼
-Data Cleaning
-   │
-   ▼
-Exploratory Data Analysis
-   │
-   ▼
-Feature Engineering
-   │
-   ▼
-Train-Test Split
-   │
-   ▼
-Linear Regression Model
-   │
-   ▼
-Prediction
-   │
-   ▼
-Evaluation
-   │
-   ▼
-Feature Impact Analysis
+📥 Dataset Collection
+          │
+          ▼
+🧹 Data Cleaning & Preprocessing
+          │
+          ▼
+📊 Exploratory Data Analysis (EDA)
+          │
+          ▼
+⚙️ Feature Engineering
+          │
+          ▼
+✂️ Train-Test Split
+          │
+          ▼
+🤖 Linear Regression Model Training
+          │
+          ▼
+📈 Model Evaluation
+          │
+          ▼
+💡 Feature Impact Analysis
+          │
+          ▼
+💾 Model Serialization (Joblib)
+          │
+          ▼
+🌐 Streamlit Web Application
+          │
+          ▼
+🚀 Deployment
 ```
 
 ---
@@ -314,6 +334,28 @@ Regional differences contribute only a minor effect compared with smoking and BM
 - 🔄 Cross Validation
 - 📉 Log Transformation of Charges
 - 🤖 Model Deployment using Streamlit
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Archi-1804/AIML-Project-RollNo-2302220100042.git
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the Streamlit App
+
+```bash
+streamlit run app.py
+```
 
 ---
 
